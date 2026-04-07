@@ -24,14 +24,16 @@
 
     <div class="reg-container content-box">
         <h1>Create Account</h1>
-        <input type="text" placeholder="Full name">
-        <input type="text" placeholder="Username">
-        <input type="birthdate" placeholder="Birthdate">
-        <input type="email" placeholder="Email">
-        <input type="password" placeholder="Password">
-        <input type="password" placeholder="Confirm Password">
-        <button>Create Account</button>
-        <p>Already have an account?<a href="login.html">Login here</a></p>
+        <form>
+            <input type="text" id="fullname" name="fullname" placeholder="Full name" required aria-label="Enter your full name">
+            <input type="text" id="username" name="username" placeholder="Username" required aria-label="Choose a username">
+            <input type="date" id="birthdate" name="birthdate" placeholder="Birthdate" required aria-label="Select your birth date">
+            <input type="email" id="email" name="email" placeholder="Email" required aria-label="Enter your email address">
+            <input type="password" id="password" name="password" placeholder="Password" required aria-label="Create a password">
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password" required aria-label="Confirm your password">
+            <button type="submit" class="btn" aria-label="Create your new account">Create Account</button>
+        </form>
+        <p>Already have an account? <a href="login.html" aria-label="Go to login page">Login here</a></p>
     </div>
 
     <footer>
