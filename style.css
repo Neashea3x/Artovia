@@ -240,6 +240,33 @@ nav a {
     transform: translateY(-2px);
 }
 
+/* Show clicked/visited state for links and buttons */
+a:visited {
+    color: #D7B96F;
+}
+
+a.clicked-link,
+a.clicked-link:visited {
+    color: #D7B96F;
+}
+
+a.btn.clicked-link {
+    background-color: #A9742F;
+    border-color: #A9742F;
+}
+
+a.clicked-link:not(.btn) {
+    text-decoration: underline;
+}
+
+a:focus,
+a:active,
+a.btn:focus,
+a.btn:active {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(215, 183, 98, 0.45);
+}
+
 .login-form {
     display: flex;
     flex-direction: column;
