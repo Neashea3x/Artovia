@@ -218,7 +218,7 @@ nav a {
 }
 
 .btn {
-    background-color: #FF6B6B;
+    background-color: #CD853F;
     color: white;
     padding: 15px 30px;
     text-decoration: none;
@@ -227,16 +227,16 @@ nav a {
     font-size: 1.1rem;
     transition: all 0.3s ease;
     display: inline-block;
-    border: 2px solid #FF6B6B;
-    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+    border: 2px solid #CD853F;
+    box-shadow: 0 4px 15px rgba(205, 133, 63, 0.3);
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
 
 .btn:hover {
-    background-color: #FF5252;
-    border-color: #FF5252;
-    box-shadow: 0 6px 20px rgba(255, 82, 82, 0.4);
+    background-color: #B8860B;
+    border-color: #B8860B;
+    box-shadow: 0 6px 20px rgba(184, 134, 11, 0.4);
     transform: translateY(-2px);
 }
 
