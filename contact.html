@@ -11,6 +11,19 @@
 
 <body>
 
+    <nav class="nav">
+        <div class="nav-left">ARTJECTIVE</div>
+        <div class="nav-center">
+            <a href="features.html">Features</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div class ="nav-right">
+            <button onclick="openLogin()">Login</button>
+            <a href="register.html" class="signup">Sign Up</a>
+    </nav>
+
     <section class="contact-hero">
         <h1>Contact Us</h1>
         <p>We'd love to hear from you! Send feedback, ideas, or questions.</p>
@@ -56,5 +69,19 @@
         </div>
     </section>
 
+    <div id="loginModal" class="modal">
+        <div class="modal-box">
+            <h2>Login</h2>
+
+            <input type="email" id="email" name="email" placeholder="Email" required aria-label="Enter your email address">
+            <input type="password" id="password" name="password" placeholder="Password" required aria-label="Enter your password">
+        
+            <button>Login</button>
+
+            <p onclick="closeLogin()">Close</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

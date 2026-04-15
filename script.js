@@ -26,4 +26,30 @@ document.addEventListener('DOMContentLoaded', function() {
             this.classList.add('clicked-link');
         });
     });
+
+    // Modal functions
+    window.openLogin = function() {
+        const modal = document.getElementById('loginModal');
+        if (modal) {
+            modal.style.display = 'flex';
+        }
+    };
+
+    window.closeLogin = function() {
+        const modal = document.getElementById('loginModal');
+        if (modal) {
+            modal.style.display = 'none';
+        }
+    };
+
+    // Handle login button clicks
+    const loginButtons = document.querySelectorAll('button[onclick*="openLogin"], a[href*="login"]');
+    loginButtons.forEach(btn => {
+        if (btn.tagName === 'A') {
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                openLogin();
+            });
+        }
+    });
 });

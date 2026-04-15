@@ -30,8 +30,8 @@
             <p>Unleash Your Creativity</p>
 
             <div class="button">
-                <button class="primary">Get Started</button>
-                <button class="secondary">Learn More</button>
+                <button class="primary" onclick="window.location.href='register.html'">Get Started</button>
+                <button class="secondary" onclick="window.location.href='features.html'">Learn More</button>
             </div>
     </section>
 
@@ -44,19 +44,11 @@
         
             <button>Login</button>
 
-            <p one-click="closeLogin()">Close</p>
+            <p onclick="closeLogin()">Close</p>
         </div>
     </div>
 
-    <script>
-        function openLogin() {
-            document.getElementById('loginModal').style.display = 'block';
-        }
-
-        function closeLogin() {
-            document.getElementById('loginModal').style.display = 'none';
-        }
-    </script>
+    <script src="script.js"></script>
 
 
 </body>
