@@ -202,7 +202,7 @@ button:hover {
     margin-top: 10px;
 }
 
-.about-mission, .about-story {
+.about-mission, .about-story, .about-values {
     display: flex;
     align-items: center;
     justify-content: center;
