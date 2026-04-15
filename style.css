@@ -5,9 +5,6 @@
     font-family: Arial, sans-serif;
 }
 
-html {
-    background: #05070a;
-}
 
 body {
     background: radial-gradient(circle at center, rgba(0,225,180,0.3),
@@ -19,8 +16,15 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.logo {
+    width: 90px;
+    height: auto;
+    filter: drop-shadow(0 0 8px rgba(0,225,204,0.4));
+}
+
 .glow-text {
     background: linear-gradient(90deg, #00ffcc, #00aaff);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: glow 2s infinite alternate;
@@ -188,6 +192,7 @@ button:hover {
 .about-hero h1 {
     font-size: 3rem;
     background: linear-gradient(90deg, #00ffcc, #00aaff);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -200,7 +205,7 @@ button:hover {
 .about-mission, .about-story {
     display: flex;
     align-items: center;
-    padding: 30px 20px;
+    justify-content: center;
 }
 
 .about-card {
@@ -232,6 +237,7 @@ button:hover {
 .contact-hero h1 {
     font-size: 3rem;
     background: linear-gradient(90deg, #00ffcc, #00aaff);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
