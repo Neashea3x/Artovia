@@ -10,6 +10,7 @@ body {
     background: radial-gradient(circle at center, rgba(0,225,180,0.3),
                 rgba(180,0,225,0.2),
                 #05070a 70%);
+    background-repeat: no-repeat;
     color: white;
     height: 100vh;
     margin: 0;
@@ -86,7 +87,7 @@ body {
     margin-top: 80px;
 }
 
-.logo-hero {
+.hero-logo{
     width: 150px;
     margin-bottom: 30px;
     filter: drop-shadow(0 0 25px rgba(0,255,180,0.5))
