@@ -11,10 +11,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    color: rgb(11, 11, 33);
+    color: rgb(5, 5, 16);
     height: 100vh;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 .glow-text {
